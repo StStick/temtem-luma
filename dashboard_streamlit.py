@@ -5,7 +5,7 @@ import matplotlib.ticker as mticker
 import numpy as np
 import streamlit as st
 
-st.set_page_config(page_title="Probabilité d'événement répété", layout="wide")
+st.set_page_config(page_title="Probabilité de luma", layout="wide")
 st.title("Probabilité d'événement répété")
 
 
