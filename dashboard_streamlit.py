@@ -6,7 +6,7 @@ import numpy as np
 import streamlit as st
 
 st.set_page_config(page_title="Probabilité de Luma", layout="wide")
-st.title("Probabilité d'événement répété")
+st.title("Probabilité de Luma")
 
 
 def format_time(seconds):
