@@ -65,7 +65,7 @@ with col_params:
     m3.metric("Espérance (temps)", format_time(e_time_s))
 
 with col_chart:
-    st.subheader("Probabilité cumulée d'avoir eu l'événement au bout de x secondes")
+    st.subheader("Probabilité cumulée d'avoir eu un luma au bout de x secondes")
 
     max_k = math.ceil(math.log(0.001) / math.log(1 - p))
     ks = np.arange(1, max_k + 1)
