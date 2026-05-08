@@ -33,11 +33,11 @@ with col_params:
 
     freq = st.radio(
         "Animations",
-        options=["Sans  —  9 / min", "Avec  —  6 / min"],
+        options=["Sans  —  10 / min", "Avec  —  6 / min"],
         index=0,
         horizontal=True,
     )
-    interval_s = 60 / 9 if freq.startswith("S") else 60 / 6
+    interval_s = 60 / 10 if freq.startswith("S") else 60 / 6
 
     taux = st.slider(
         "Taux d'apparition (%)", min_value=1, max_value=100, value=100, step=1
